@@ -1,0 +1,23 @@
+{
+    "title": "Pretty Light Theme (for Brackets)",
+    "name": "pretty-light-theme-by-mmk-jony",
+    "description": "A Pretty Light theme for Brackets, by MMK Jony. This theme is designed with some pretty color-scheme to make your code-editor much eye-friendly and readable.",
+    "keywords": ["pretty", "light", "theme", "brackets"],
+    "homepage": "https://github.com/mmkjony/prettyLight-brackets",
+    "license": "MIT",
+    "version": "1.0.0",
+    
+    "author": {
+        "name": "MMK Jony",
+        "url": "https://github.com/mmkjony"
+    },
+    
+    "engines": {
+        "brackets": ">=1.0"
+    },
+    
+    "theme": {
+        "file": "main.less",
+        "dark": false
+    }
+}
