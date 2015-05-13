@@ -18,6 +18,5 @@
     
     "theme": {
         "file": "main.less",
-        "dark": false
     }
 }
