@@ -1,0 +1,46 @@
+/**
+ * Copyright (c) 2015 MMK Jony, All rights reserved.
+ * Licensed under MIT
+ **/
+
+
+
+// Color Palette
+@background: #f8f8f8;
+@red:        #d41f1f;
+@error:      #e62323;
+@operator:   #37424d;
+@bracket:    #2f4f6f;
+@tag:        #3981be;
+@attr:       #e88501;
+@string:     #238e0f;
+@variable:   #c11111;
+@keyword:    #785695;
+@kw2:        #496886;
+
+
+//Editor Styling
+.cm-meta                    { font-weight: bold; background: rgba(47, 79, 111, 0.07); border-radius: 2px; padding: 0 3px; }
+.cm-error		            { color: @error; }
+.cm-tag,
+.cm-qualifier,
+.cm-builtin                 { color: @tag; }
+.cm-attribute               { color: @attr; }
+.cm-string,
+.cm-number                  { color: @string; }
+.cm-variable                { color: @variable; }
+.cm-variable-3              { color: lighten(@variable, 15% ) }
+.cm-variable-2,
+.cm-def                     { color: darken(@tag, 7%); }
+.cm-variable-2              { font-style: italic; }
+.cm-keyword                 { color: @kw2; font-weight: 600; }
+.cm-bracket                 { color: @bracket; }
+.CodeMirror-matchingbracket { background: rgba(212, 31, 31, 0.7); font-weight: 600; color: @background !important; }
+
+
+.CodeMirror-scroll          { background: @background; }
+
+.CodeMirror-gutters         { background-color: darken(@background, 1%); }
+
+.cm-operator,
+.CodeMirror-code pre > span { color: @operator; }
